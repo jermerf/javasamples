@@ -7,7 +7,7 @@ public class GetUserInput {
         System.out.println("How old are you?");
         int age = input.nextInt();
 
-        for(int i=0; i < age; i++){
+        for(int i=0; i < age; i++) {
             System.out.println("Note for year " + i);
         }
     }
