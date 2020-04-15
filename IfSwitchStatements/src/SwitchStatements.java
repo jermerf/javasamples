@@ -12,6 +12,7 @@ public class SwitchStatements {
         int choice = input.nextInt();
         input.nextLine();
 
+
         switch (choice) {
             case 1:
                 System.out.println("How old are you?");
