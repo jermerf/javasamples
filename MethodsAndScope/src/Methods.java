@@ -1,14 +1,5 @@
 public class Methods {
 
-    /* Naming things: The rain in spain falls mainly on Jermaine
-        CamelCase:  theRainInSpainFallMainlyOnJermaine <- Variables, Methods
-        PascalCase: TheRainInSpainFallMainlyOnJermaine <- Class/Interface names
-        EnumCase: THE_RAIN_IN_SPAIN_FALLS_MAINLY_ON_JERMAINE <- Enums/Constants
-        KebabCase: the-rain-in-spain-falls-mainly-on-jermaine <- XML attributes, HTML classes
-        PythonCase: the_rain_in_spain_falls_mainly_on_jermaine <- Python, and wherever
-
-     */
-
     static int yellCount = 0;
 
     public static void main(String[] args) {
