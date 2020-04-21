@@ -26,4 +26,11 @@ CH8
 CH9
 9.1, 9.4, 9.7, 9.8, 9.10
 
-CH10
+CH10-13
+Create a text editor in a JFrame window. You should have:
+- JTextArea where the content goes
+- "New" JButton for resetting the program and content
+- "Open" JButton for opening a .txt file and reading its contents into the textarea 
+- "Save As" JButton for saving the content in the text area to a new file. Must show a save file chooser and save it as a .txt file.
+- "Save" JButton for saving. If there was no file opened, like if this is the first start of the program or you've clicked "New", this will behave the same as "Save as", otherwise it will just save to the current file.
+- Debug your program as best you can to prevent potential users from causing it to crash or have unhandled exceptions.

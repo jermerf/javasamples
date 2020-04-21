@@ -15,7 +15,6 @@ public class Dog {
 
     public String getName() {
         return name;
-        new Scanner(System)
     }
 
     public void setName(String name) {
