@@ -6,6 +6,7 @@ public class Tiger extends Cat{
     public Tiger(int age, double weight, int stripes){
         super(age, weight);
         this.stripes = stripes;
+        // this.age; // Access protected values
     }
 
     public int getStripes() {

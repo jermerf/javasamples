@@ -1,7 +1,7 @@
 package inheritance;
 
 public class Cat {
-    private int age;
+    protected int age;
     private double weight;
     private double fluffitude;
 
