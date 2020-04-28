@@ -11,26 +11,56 @@ CH3
 CH4
 4.4, 4.9, 4.13, 4.15, 4.24
 
-CH5
-5.4, 5.12, 5.24, 5.31, 5.50
+CH5 - Do any 5 questions
+	PDF													 		
+		5.4, 5.12, 5.24, 5.31, 5.50
+	BOOKSHELF/VITALSOURCE
+		5.12 is 5.13 in BOOKSHELF, the question with n^3. 
+		5.50 is a different but similar question
 
-CH6
-6.5, 6.14, 6.16 6.18, 6.25
+CH6											
+6.5, 6.14, 6.16 6.18, 6.25						
 
-CH7
-7.16, 7.21, 7.26, 7.28, 7.30
+CH7 - Do any 5 questions
+	PDF													 		
+		7.16, 7.21, 7.26, 7.28, 7.30
+	BOOKSHELF/VITALSOURCE
+		7.21 is a different but similar question
+		7.26 is 7.19 in BOOKSHELF, the question with isSorted(int[] list)
+		7.28 is the same except the PDF asks for permutations, BOOKSHELF asks for combinations.
+
 
 CH8
-8.10, 8.13, 8.15, 8.22, 8.28
+8.10, 8.13, 8.15/or/8.18, 8.22, 8.28
 
 CH9
 9.1, 9.4, 9.7, 9.8, 9.10
 
 CH10-13
-Create a text editor in a JFrame window. You should have:
-- JTextArea where the content goes
-- "New" JButton for resetting the program and content
-- "Open" JButton for opening a .txt file and reading its contents into the textarea 
-- "Save As" JButton for saving the content in the text area to a new file. Must show a save file chooser and save it as a .txt file.
-- "Save" JButton for saving. If there was no file opened, like if this is the first start of the program or you've clicked "New", this will behave the same as "Save as", otherwise it will just save to the current file.
+Create a text editor in a JFrame window or with JavaFX. 
+You should have:
+- Text Area where the content goes
+- "New" Button for resetting the program and content
+- "Open" Button for opening a .txt file and reading its contents into the text area 
+- "Save As" Button for saving the content in the text area to a new file. Must show a save file chooser and save it as a .txt file.
+- "Save" Button for saving. If there was no file opened, like if this is the first start of the program or you've clicked "New", this will behave the same as "Save as", otherwise it will just save to the current file.
 - Debug your program as best you can to prevent potential users from causing it to crash or have unhandled exceptions.
+
+CH14-21
+A client has come to the software contracting company that you work for with the following requirements. You must create a program meeting these requirements, how you achieve that is up to you, but try to use best practices to keep your code organized and error free. Test your program thoroughly to prevent user errors.
+Create a JavaFX project that demonstrates:
+- The use of a Queue with
+	- A text box for new items
+	- A listview containing a list of items
+	- A button to Enqueue items from the text box to the list
+	- A button to Dequeue items from the list to the text box
+- The use of a Stack with a List
+	- A text box for new items
+	- A listview containing a list of items
+	- A button to Push items from the text box to the list
+	- A button to Pop items from the list to the text box
+- A Save button that saves the current contents of boths lists to a file
+- A Load button that loads the contents of boths lists from a file
+So 2 text boxes, 2 listviews, 6 buttons
+
+

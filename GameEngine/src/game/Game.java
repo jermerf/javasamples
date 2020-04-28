@@ -3,13 +3,8 @@ package game;
 import engine.PaintPanel;
 import game.enemies.Asteroid;
 import game.enemies.Dragon;
-import game.enemies.Sprite;
 
-import javax.imageio.ImageIO;
 import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
 import java.util.Random;
 
 
@@ -42,8 +37,8 @@ public class Game {
         for(int i=0; i<sprites.length; i++) {
             Sprite s = sprites[i];
             g.drawImage(s.getImg(), s.getX(), s.getY(), s.getW(), s.getH(), null);
-            s.setX(s.getX() + rnd.nextInt(10));
-            s.setY(s.getY() + rnd.nextInt(10));
+            s.setX(s.getX() + rnd.nextInt(10)-4);
+            s.setY(s.getY() + rnd.nextInt(10)-4);
         }
 
         g.dispose();

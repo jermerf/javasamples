@@ -1,4 +1,4 @@
-package game.enemies;
+package game;
 
 import game.Game;
 import game.ImageLoader;
