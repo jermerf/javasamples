@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="296.0" prefWidth="426.0" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button mnemonicParsing="false" onAction="#chooseFolder" text="Choose Folder" />
+      <TreeView fx:id="fileBrowser" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1" />
+      <Button mnemonicParsing="false" onAction="#startFib" prefHeight="26.0" prefWidth="122.0" text="Fib" GridPane.columnIndex="1" />
+      <TextField fx:id="txtFibIndex" promptText="index" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <TextField fx:id="txtListItem" promptText="message" GridPane.rowIndex="2" />
+      <Button mnemonicParsing="false" onAction="#addToList" prefHeight="25.0" prefWidth="89.0" text="Add to List" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Button mnemonicParsing="false" onAction="#showList" prefHeight="61.0" prefWidth="105.0" text="Show" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Button mnemonicParsing="false" onAction="#readFile" text="Read File" GridPane.rowIndex="3" />
+      <TextField fx:id="txtToWrite" promptText="text to write" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Button mnemonicParsing="false" onAction="#writeFile" text="Write" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints maxWidth="195.0" minWidth="110.0" prefWidth="110.0" />
+      <ColumnConstraints maxWidth="166.0" minWidth="60.0" prefWidth="157.0" />
+      <ColumnConstraints maxWidth="87.0" minWidth="42.0" prefWidth="63.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

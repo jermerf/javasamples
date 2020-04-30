@@ -1,8 +1,9 @@
 package game;
 
 import engine.PaintPanel;
-import game.enemies.Asteroid;
-import game.enemies.Dragon;
+import game.sprite.Asteroid;
+import game.sprite.Dragon;
+import game.sprite.Sprite;
 
 import java.awt.*;
 import java.util.Random;

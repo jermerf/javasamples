@@ -1,6 +1,4 @@
-package game.enemies;
-
-import game.Sprite;
+package game.sprite;
 
 public class Asteroid extends Sprite {
 

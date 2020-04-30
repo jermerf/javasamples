@@ -1,4 +1,4 @@
-package game;
+package game.sprite;
 
 import game.Game;
 import game.ImageLoader;
