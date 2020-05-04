@@ -10,5 +10,4 @@ public class Controller {
         Button btn = (Button) ev.getTarget();
         btn.setText("Ouch!");
     }
-
 }
