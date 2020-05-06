@@ -1,0 +1,35 @@
+Basics
+	Primitive Types int boolean float double char
+		Default Values  0 false     0f    0.0   \u0000
+	Assignment operator =
+	literals 
+	operators + - = == < > <= >=
+	expressions	7 + 7, x + y, cat + " is so cute"
+	logic expressions and operators && || !
+Strings and String manipulation
+control statements
+	if, else if, else if, else if, ..., else
+	switch case break default
+	while do for break continue
+Arrays
+functions void return
+Classes
+	class constructor
+	static
+	public private protected
+	extends
+	implements
+	@Override
+	interface
+	abstract
+try catch finally Exception
+Lambda Expressions
+	@FunctionalInterface
+Data Structures
+	List, Stack, Queue, Map, Tree, Graph
+Misc
+	File I/O
+	Networking
+	Recursion
+	Generics
+	Threading

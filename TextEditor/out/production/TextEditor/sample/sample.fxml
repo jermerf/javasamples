@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="312.0" prefWidth="449.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextArea fx:id="txtContent" prefHeight="252.0" prefWidth="449.0" />
+      <GridPane alignment="center" hgap="10" prefHeight="54.0" prefWidth="449.0" vgap="10">
+         <children>
+            <Button mnemonicParsing="false" onAction="#newClicked" text="New" />
+            <Button mnemonicParsing="false" text="Open" GridPane.columnIndex="1" />
+            <Button mnemonicParsing="false" text="Save" GridPane.columnIndex="2" />
+            <Button mnemonicParsing="false" text="Save As" GridPane.columnIndex="3" />
+         </children>
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+         </rowConstraints>
+      </GridPane>
+   </children>
+</VBox>

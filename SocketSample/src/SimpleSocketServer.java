@@ -11,6 +11,7 @@ public class SimpleSocketServer {
         try {
             server = new ServerSocket(LISTEN_PORT);
             System.out.println("Server listening on port " + LISTEN_PORT);
+
             Socket clientSock = server.accept();
             DataInputStream dataIn = new DataInputStream(clientSock.getInputStream());
             int receivedValue = 0;
