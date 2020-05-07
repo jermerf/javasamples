@@ -11,7 +11,6 @@ import inheritance.Tiger;
 import java.util.Scanner;
 
 public class Program {
-    int x;
 
     public static void main(String[] args) {
         //Encapsulation

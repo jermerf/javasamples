@@ -40,6 +40,14 @@ public class MyMain {
         boolean d = a || b; // True if at least one of a or b are true
 
         int bigNum = Integer.MAX_VALUE;
+        boolean boo = Boolean.TRUE;
+        char chacha = Character.forDigit(50, 10);
+        byte bb = Byte.valueOf("a");
+        float ff = Float.MAX_VALUE;
+        double dd = Double.MIN_VALUE;
+
+        Cat cat = new Cat();
+        cat.name = "Bob";
 
         if(edisonAge > 3) {
             System.out.println("Edison is full grown");
@@ -47,6 +55,10 @@ public class MyMain {
             System.out.println("Edison is still growing");
         }
 
+    }
+
+    static class Cat{
+        String name;
     }
 
 }

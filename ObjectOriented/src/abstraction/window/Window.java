@@ -19,6 +19,10 @@ public class Window extends JFrame {
         }
     };
 
+    private ActionListener lambdaListener = (ActionEvent ev) -> {
+      // I am the same as the calm listener, but less code
+    };
+
     public Window(String title){
         initializeProperties(title);
     }

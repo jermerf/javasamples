@@ -36,4 +36,12 @@ public class Dog {
     public void setWeight(double weight) {
         this.weight = weight;
     }
+
+    public Date getCreated() {
+        return created;
+    }
+
+    public void setCreated(Date created) {
+        this.created = created;
+    }
 }

@@ -89,6 +89,8 @@ public class Program {
             ex.printStackTrace();
         } catch (IOException ex) {
             System.out.println("An error occurred, it was files");
+        } catch (Exception ex) {
+            System.out.println("Some error occurred: " + ex.getMessage());
         }
 
         // Intro to TODO

@@ -19,6 +19,9 @@ public class AgeSwitch {
             Signed copy of "Code" by Jermionee Granger
             Season pass to Jermaine's Basement
 
+            // This is an example of fall-through, where there is no break; so
+            // in case 3 for example, after the two messages are printed, the
+            // code "falls-through" to case 2, and so on.
             */
         switch (tier) {
             case 3:

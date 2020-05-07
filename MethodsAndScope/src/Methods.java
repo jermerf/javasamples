@@ -18,6 +18,7 @@ public class Methods {
         System.out.println("Yelled " + yellCount + " times");
     }
 
+    // int sum(int,int)
     static int sum(int n1, int n2) {
         return n1 + n2;
     }

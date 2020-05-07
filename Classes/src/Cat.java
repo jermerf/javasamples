@@ -1,4 +1,5 @@
 public class Cat {
+    static int catCount = 0;
     // Member variables/members
     String name = "Unknown";
     int age = 0;
@@ -14,13 +15,14 @@ public class Cat {
         this.name = newName;
         this.age = newAge;
         this.weight = newWeight;
+        catCount++;
         System.out.println("Announcing, the creating of a kitty!");
     }
 
     // member function/method
     public void printDescription(){
-        System.out.println("This cat is name " + name + " and they are " + age
-                + " years old and weighs " + weight);
+        System.out.println("This cat's name is " + this.name + " and they are " + this.age
+                + " years old and weighs " + this.weight);
     }
 
 }

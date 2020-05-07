@@ -12,7 +12,10 @@ public class ElectricCharge {
         return charge;
     }
 
+    //Static functions can only access static variables
     public static double getTotalCharge() {
+        // charge isn't static, so this static function can't see it
+        // System.out.println(charge);
         return totalCharge;
     }
 

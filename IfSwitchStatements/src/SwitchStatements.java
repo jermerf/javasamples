@@ -35,6 +35,8 @@ public class SwitchStatements {
             case 3:
                 System.out.println("AHHH!! The prices! The toiletpaper!!");
                 break;
+            default:
+                System.out.println("Invalid choice, what's up with that!?");
         }
         System.out.println("Switching complete. Excellent");
     }

@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class StringMain {
 
     public static void main(String[] args) {
@@ -40,5 +44,40 @@ public class StringMain {
         System.out.println("First letter: " + firstLetter);
 
         char letterE = 'E';
+
+
+        // --- Conversion Prcedence
+
+        int inti = 10;
+        float floati = 10.5f;
+        double doubli = 3.14;
+
+        float ipf = inti + floati;
+        double ipd = inti + doubli;
+        double fpd = floati + doubli;
+
+        int ipfcast = (int)(inti + floati);
+        int ipdcast = (int)(inti + doubli);
+        float fpdcast = (float)(floati + doubli);
+
+        String strAlwaysWin = "Anything+String=String";
+
+        String ips = inti + " words";
+        String fps = floati + " words";
+        String dps = doubli + " words";
+
+        // Let's go crazy
+        List<String> list = new ArrayList<>();
+
+        String listps = list + " words";
+
+        System.out.println(listps);
+
+        SuperList sl = new SuperList();
+
+        String superlistps = sl + " words";
+
+        System.out.println(superlistps);
+
     }
 }

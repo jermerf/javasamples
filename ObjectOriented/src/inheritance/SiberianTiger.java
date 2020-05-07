@@ -11,7 +11,6 @@ public class SiberianTiger extends Tiger{
         return minTemperatureTollerance;
     }
 
-
     @Override
     public String toString() {
         return "I am a siberian tiger";

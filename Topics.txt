@@ -1,9 +1,9 @@
 Basics
-	Primitive Types int boolean float double char
-		Default Values  0 false     0f    0.0   \u0000
+	Primitive Types int boolean float double char				// Not Primitive but String's default
+		Default Values  0 false     0f    0.0   \u0000													null
 	Assignment operator =
 	literals 
-	operators + - = == < > <= >=
+	operators + - * / % = == != < > <= >= ! || && 
 	expressions	7 + 7, x + y, cat + " is so cute"
 	logic expressions and operators && || !
 Strings and String manipulation

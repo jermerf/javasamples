@@ -33,6 +33,7 @@ public class ArrayExamples {
             System.out.print(people[i] + ", ");
         }
 
+        // For Each
         for(String indiv : people){
             System.out.print(indiv + ", ");
         }
@@ -51,12 +52,13 @@ public class ArrayExamples {
 
         y = 8;
 
-        // THis passes a reference
-        // int[] copyEvens = evens;
+        // This passes a reference
+//         int[] copyEvens = evens;
 
         // This would change both since they are the same
         // copyEvens[0] = -404;
 
+        // We need a deep copy
         // Slow long way
         int[] copyEvens = new int[evens.length];
         for(int i=0; i<evens.length; i++) {
