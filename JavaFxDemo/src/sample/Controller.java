@@ -4,11 +4,20 @@ import javafx.event.Event;
 import javafx.event.EventTarget;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 import javafx.scene.control.TreeItem;
 import javafx.scene.control.TreeView;
 
 public class Controller {
 
+    @FXML
+    private TextField txtSomeTextBox;
+
+    public void clicked(Event ev) {
+        String words = txtSomeTextBox.getText();
+        // ... more code ...
+    }
+    
     @FXML
     Button btnPink;
     @FXML
